@@ -1,0 +1,20 @@
+﻿  ofApp.cpp
+c:\users\jf\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofvec3f.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\users\jf\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofvec2f.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\users\jf\documents\of_v0.10.0_vs2017_release\addons\ofxopencv\libs\opencv\include\opencv2\core\mat.hpp(1964): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\users\jf\documents\of_v0.10.0_vs2017_release\addons\ofxopencv\libs\opencv\include\opencv2\core\persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\users\jf\documents\of_v0.10.0_vs2017_release\addons\ofxopencv\libs\opencv\include\opencv2\core\utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\users\jf\documents\of_v0.10.0_vs2017_release\apps\myapps\vj\src\ofapp.cpp(256): warning C4996: 'ofImage_<unsigned char>::getPixelsRef': Use getPixels() instead
+  c:\users\jf\documents\of_v0.10.0_vs2017_release\libs\openframeworks\graphics\ofimage.h(410): note: 'ofImage_<unsigned char>::getPixelsRef' の宣言を確認してください
+c:\users\jf\documents\of_v0.10.0_vs2017_release\apps\myapps\vj\src\ofapp.cpp(296): warning C4996: 'ofImage_<unsigned char>::getPixelsRef': Use getPixels() instead
+  c:\users\jf\documents\of_v0.10.0_vs2017_release\libs\openframeworks\graphics\ofimage.h(410): note: 'ofImage_<unsigned char>::getPixelsRef' の宣言を確認してください
+     ライブラリ bin\VJ.lib とオブジェクト bin\VJ.exp を作成中
+  LINK : /LTCG が指定されましたが、コードの生成は必要ありません。リンク コマンド ラインから /LTCG を削除し、リンカーの性能を改善してください。
+  VJ.vcxproj -> C:\Users\jf\Documents\of_v0.10.0_vs2017_release\apps\myApps\VJ\bin\VJ.exe
+  
+  	                   2	C:\Users\jf\Documents\of_v0.10.0_vs2017_release\libs\fmodex\lib\vs\Win32\
+  	  *EXTRA File 		 5647872	C:\Users\jf\Documents\of_v0.10.0_vs2017_release\apps\myApps\VJ\bin\FreeImage.dll
+  
+  	                   1	C:\Users\jf\Documents\of_v0.10.0_vs2017_release\libs\FreeImage\lib\vs\Win32\
+  	  *EXTRA File 		 1266176	C:\Users\jf\Documents\of_v0.10.0_vs2017_release\apps\myApps\VJ\bin\fmodex.dll
+  	  *EXTRA File 		 1312768	C:\Users\jf\Documents\of_v0.10.0_vs2017_release\apps\myApps\VJ\bin\fmodexL.dll

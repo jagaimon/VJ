@@ -1,2 +1,2 @@
 ofxOpenCv
-ofxThreadedImageLoader
+ofxOsc
