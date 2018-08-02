@@ -26,13 +26,13 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
 	Sleep(m_nTime);
-	if (m_bStop) {
-		imgCv[m_nViewNo].draw(0, 0, 1000, 500);
-	}
-	else {
+
+	ofRectangle rect = ofGetWindowRect();//window‚Ìrectæ“¾
+	if (!m_bStop) {//stop‚Ì‚Íƒ‰ƒ“ƒ_ƒ€‚ÅŠG‚ğ•Ï‚¦‚é
 		m_nViewNo = rand() % IMG_NUM;
-		imgCv[m_nViewNo].draw(0, 0, 1000, 500);
 	}
+	imgCv[m_nViewNo].draw(0, 0, rect.width, rect.height);//•`‰æˆ—
+
 	if (m_bMethod3on) {
 		method3(m_nViewNo);
 	}
