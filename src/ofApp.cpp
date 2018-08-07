@@ -32,6 +32,7 @@ void ofApp::draw(){
 		m_nViewNo = rand() % IMG_NUM;
 	}
 	imgCv[m_nViewNo].draw(0, 0, rect.width, rect.height);//描画処理
+	//imgCv[m_nViewNo].draw(0, 0, 1280, 800);//描画処理1280,800
 
 	if (m_bMethod3on) {
 		method3(m_nViewNo);
@@ -46,6 +47,7 @@ void ofApp::draw(){
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
+	ofRectangle rect;
 	switch (key) {
 		case OF_KEY_RETURN:
 			break;
@@ -71,6 +73,8 @@ void ofApp::keyPressed(int key){
 			break;
 		case 45: //-
 			ofSetFullscreen(true);//フルスクリーンON
+			rect = ofGetWindowRect();//windowのrect取得
+			ofSetWindowPosition(rect.width+1, 0);
 			break;
 		case 48://0
 			m_bMethod3on = false;
@@ -285,6 +289,19 @@ void ofApp::imageLoad(int nParam)
 		img[7].load("images/2_7.JPG");
 		img[8].load("images/2_8.JPG");
 		img[9].load("images/2_9.JPG");
+	}
+	else if (nParam == 2)
+	{
+		img[0].load("images/3_0.JPG");
+		img[1].load("images/3_1.JPG");
+		img[2].load("images/3_2.JPG");
+		img[3].load("images/3_3.JPG");
+		img[4].load("images/3_4.JPG");
+		img[5].load("images/3_5.JPG");
+		img[6].load("images/3_6.JPG");
+		img[7].load("images/3_7.JPG");
+		img[8].load("images/3_8.JPG");
+		img[9].load("images/3_9.JPG");
 	}
 	else
 	{

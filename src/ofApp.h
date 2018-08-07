@@ -4,7 +4,7 @@
 #include "ofxOpenCv.h"
 
 #define IMG_NUM 10
-#define IMG_SET_NUM 2
+#define IMG_SET_NUM 3
 
 class ofApp : public ofBaseApp{
 
