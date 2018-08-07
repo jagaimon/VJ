@@ -617,7 +617,6 @@ void ofApp::method6(int imgNo, int mode) {//’PF“h‚è‘Ö‚¦
 
 	unsigned int    now = (unsigned int)time(0);
 	srand(now);
-
 	for (i = 0; i < img[imgNo].getHeight(); i++) {
 
 		for (j = 0; j < img[imgNo].getWidth(); j++) {
