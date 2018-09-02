@@ -303,6 +303,19 @@ void ofApp::imageLoad(int nParam)
 		img[8].load("images/3_8.JPG");
 		img[9].load("images/3_9.JPG");
 	}
+	else if (nParam == 3)
+	{
+		img[0].load("images/4_0.JPG");
+		img[1].load("images/4_1.JPG");
+		img[2].load("images/4_2.JPG");
+		img[3].load("images/4_3.JPG");
+		img[4].load("images/4_4.JPG");
+		img[5].load("images/4_5.JPG");
+		img[6].load("images/4_6.JPG");
+		img[7].load("images/4_7.JPG");
+		img[8].load("images/4_8.JPG");
+		img[9].load("images/4_9.JPG");
+	}
 	else
 	{
 		return;
